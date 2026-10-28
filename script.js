@@ -1,0 +1,10 @@
+    let x = Number("marko");
+    let y = Boolean();
+    let rez = "ba" + x + "a " + "ide" + " na" + " Mjesec " +  x + "kad";
+    console.log(rez);
+    let string = "baNaNa ide na Mjesec NaNkad";
+    let rjesenje = Boolean(string && rez);
+    console.log(string);
+    console.log(rjesenje);
+    console.log(typeof string);
+    console.log(typeof rez);
